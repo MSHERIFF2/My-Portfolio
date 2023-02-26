@@ -1,0 +1,337 @@
+
+    body{
+        margin: auto;
+        box-sizing: border-box;
+        background-color: white;
+    }
+    .nav{
+        background-color: purple;
+        
+    }
+    
+    .nav ul li .nav-item {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        
+    }
+    
+    .nav ul li .nav-item:hover{
+        background-color: whitesmoke;
+        color: purple;
+    }
+    
+    .nav ul li {
+        list-style: none;
+        padding: 10px;
+        
+    }
+    
+    .nav ul{
+        display: flex;
+        flex-direction: row;
+        margin-right: 50px;
+        justify-content: end;
+        padding: 40px;
+        
+        
+    }
+    
+    .main h1, h2, h3 {
+        text-align: center;
+        text-transform: uppercase;
+        color: rgb(77, 1, 77);
+        
+        font-size: 40px;
+    }
+    
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        padding: 20px;
+    }
+    
+    .navW{
+        
+        
+        margin-top: 12px;
+        width: 90%;
+        
+    }
+    
+    .footer{
+        background-color: purple;
+        color: whitesmoke;
+        padding: 30px;
+        text-align: center;
+        
+    }
+    .main #about p, .main #qualification p{
+        font-size: 25px;
+        font-family:Arial, Helvetica, sans-serif;
+        text-align: justify;
+        line-height: 50px;
+    }
+    
+    .main #qualification ul li{
+        font-size: 20px;
+        line-height: 45px;
+        list-style-type:georgian;
+        font-weight: bolder;
+        color: rgb(73, 3, 73);
+    }
+    
+    #skill #frontEnd .front, #skill #backEnd .back{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+         font-weight: bolder;
+         font-size: 20px;
+         font-family: Arial, Helvetica, sans-serif;
+         margin: 50px;
+         
+    
+    }
+    #skill #frontEnd , #skill #backEnd{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         font-weight: bolder;
+         font-size: 20px;
+         font-family: Arial, Helvetica, sans-serif;
+         
+    
+    }
+    
+    #skill #frontEnd #front img{
+        display: block;
+        width: 50%;
+        height: auto;
+        border-radius: 10%;
+    }
+    
+    
+    #project #dev{
+        display: flex;
+        margin: 20px;
+        padding: 30px;
+        height: 80%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #project #dev div{
+        background-color: purple;
+        color: white;
+        border-radius: 10%;
+        border: 4px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 30px;
+        margin: 30px;
+    }
+    #project #dev div:hover{
+        transition: 0.9s ease;
+        height: 100% ;
+        cursor: pointer;
+        background-color: blueviolet;
+    }
+    #project h1{
+        text-transform: uppercase;
+        text-align: center;
+        color: blueviolet;
+    }
+    #hm button{
+        border-radius: 50%;
+        background-color: purple;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        width: auto;
+        height: auto;
+        font-size: 30px;
+        display: block;
+        margin: auto;
+    }
+    #hm button a{
+        color: white;
+        text-decoration: none;
+    }
+    #hm{
+        margin-bottom: 20px;
+    }
+
+
+/*Media query */
+
+@media screen and (max-width: 500px) {
+    .nav ul{
+        display: block;
+    }
+    .nav ul li .nav-item {
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        
+    }
+    
+    .nav ul li .nav-item:hover{
+        background-color: whitesmoke;
+        color: purple;
+    }
+    
+    .nav ul li {
+        list-style: none;
+        padding: 5px;
+        
+    }
+    
+   
+    
+    .main h1, h2, h3 {
+        text-align: center;
+        text-transform: uppercase;
+        color: rgb(77, 1, 77);
+        
+        font-size: 20px;
+    }
+    
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 5px;
+    }
+    
+    .navW{
+        margin-top: 6px;
+        width: 100%;
+        
+    }
+    
+    .footer{
+        background-color: purple;
+        color: whitesmoke;
+        padding: 7px;
+        text-align: center;
+        
+    }
+    .main #about p, .main #qualification p{
+        font-size: 12px;
+        font-family:Arial, Helvetica, sans-serif;
+        text-align: justify;
+        line-height: 20px;
+    }
+    
+    .main #qualification ul li{
+        font-size: 10px;
+        line-height: 22px;
+        list-style-type:georgian;
+        font-weight: bolder;
+        color: rgb(73, 3, 73);
+    }
+    
+    #skill #frontEnd .front, #skill #backEnd .back{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+         font-weight: bolder;
+         font-size: 10px;
+         font-family: Arial, Helvetica, sans-serif;
+         margin: 25px;
+         
+    
+    }
+    #skill #frontEnd , #skill #backEnd{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+         font-weight: bolder;
+         font-size: 20px;
+         font-family: Arial, Helvetica, sans-serif;
+         
+    
+    }
+    
+    #skill #frontEnd #front img{
+        display: block;
+        width: 50%;
+        height: auto;
+        border-radius: 10%;
+    }
+    
+    
+    #project #dev{
+        display: flex;
+        flex-direction:column ;
+        margin: 10px;
+        padding: 15px;
+        height: 40%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #project #dev div{
+        background-color: purple;
+        color: white;
+        border-radius: 10%;
+        border: 4px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 15px;
+        margin: 15px;
+    }
+    #project #dev div:hover{
+        transition: 0.9s ease;
+        height: 100% ;
+        cursor: pointer;
+        background-color: blueviolet;
+    }
+    #project h1{
+        text-transform: uppercase;
+        text-align: center;
+        color: blueviolet;
+    }
+    #hm button{
+        border-radius:25%;
+        background-color: purple;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        width: auto;
+        height: auto;
+        font-size: 15px;
+        display: block;
+        margin: auto;
+    }
+    #hm button a{
+        color: white;
+        text-decoration: none;
+    }
+    #hm{
+        margin-bottom: 10px;
+    }
+
+    #myP{
+        padding: 0;
+        border-radius: 10%;
+        border: 4px solid white;
+        margin: auto;
+        display: block;
+        width: 5%;
+        
+    }
+    
+}
+
+#myP{
+    padding: 0;
+    border-radius: 10%;
+    border: 4px solid white;
+    margin: auto;
+    display: block;
+    width: auto;
+    
+}
